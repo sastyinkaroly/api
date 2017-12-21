@@ -31,7 +31,7 @@ $participants->movieRole = $data->movieRole;
 $participants->movieBrief = $data->movieBrief;
 $participants->moviePlot = $data->moviePlot;
 $participants->quality = $data->quality;
-$participants->date_added = date('Y-m-d H:i:s');
+$participants->last_modified = date('Y-m-d H:i:s');
  
 // update the participants
 if($participants->update()){
